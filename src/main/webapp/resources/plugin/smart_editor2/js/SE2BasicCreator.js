@@ -35,6 +35,9 @@ function createSEditor2(elIRField, htParams, elSeAppContainer){
 		bUseModeChanger : htParams.bUseModeChanger
 	};
 	
+	//chi9148 오른쪽 css 짤리는 부분 수정
+	htDimension.nWidth -= 2;
+	
 	oEditor.registerPlugin(new nhn.husky.SE_EditingAreaManager("WYSIWYG", oIRTextarea, htDimension,  htParams.fOnBeforeUnload, elAppContainer));
 	oEditor.registerPlugin(new nhn.husky.SE_EditingArea_WYSIWYG(oWYSIWYGIFrame));			// Tab Editor 모드
 	oEditor.registerPlugin(new nhn.husky.SE_EditingArea_HTMLSrc(oHTMLSrc));					// Tab HTML 모드

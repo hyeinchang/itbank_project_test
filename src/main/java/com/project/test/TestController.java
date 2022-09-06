@@ -111,6 +111,7 @@ public class TestController {
 			cafeDTO.setCafeTitle(request.getContextPath() + "/resources/upload/demo_01.jpg");
 			break;
 		case 5 : skin = "pomegranate";
+			cafeDTO.setCafeLayout(1);
 			break;
 		case 6 : skin = "turquoise";
 			break;

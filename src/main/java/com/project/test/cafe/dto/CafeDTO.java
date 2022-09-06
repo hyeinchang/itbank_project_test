@@ -7,6 +7,7 @@ public class CafeDTO {
 	private String cafeTitle;
 	private String cafeIntroduce;
 	private String cafeFront;
+	private int cafeLayout;
 	private String userId;
 	private String cafeManagerNickName;
 	private boolean isCafeMember;
@@ -54,6 +55,12 @@ public class CafeDTO {
 	}
 	public void setCafeFront(String cafeFront) {
 		this.cafeFront = cafeFront;
+	}
+	public int getCafeLayout() {
+		return cafeLayout;
+	}
+	public void setCafeLayout(int cafeLayout) {
+		this.cafeLayout = cafeLayout;
 	}
 	public String getUserId() {
 		return userId;

@@ -107,15 +107,17 @@
   <!-- Template Main Javascript File -->
   <script src="${contextPath}/resources/MaxiBiz/js/main.js"></script>
   
-  <form name="form" method="get">
+  <form name="cafeForm" method="post">
   	<input type="hidden" name="cafeId" value="${cafeDTO.cafeId}">
-  	<input type="hidden" name="cafeName" value="테스트카페">
+  	<input type="hidden" name="cafeName" value="${cafeDTO.cafeName}">
+  	<input type="hidden" name="cafeTitle" value="${cafeDTO.cafeTitle}">
+  	<textarea name="cafeFront" style="display:none;">${cafeDTO.cafeFront}</textarea>
   	<input type="hidden" name="cafeSkin" value="${cafeDTO.cafeSkin}">
   </form>
 <script type="text/javascript">
-  function changeUrl(path) {
-	  document.form.action = path;
-	  document.form.submit();
+  function changeCafeMenu(path) {
+	  document.cafeForm.action = path;
+	  document.cafeForm.submit();
   }
   
   function changeCafe(cafeId) {

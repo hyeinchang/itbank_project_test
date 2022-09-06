@@ -25,7 +25,7 @@ table.cstmTbl1 th, table.cstmTbl1 td {padding: 10px !important;}
 
 /* main */
 .cstmAside {padding: 0 !important; width: 20%;}
-.cstmRight {padding: 0 0 60px 0 !important;width: 78%;}
+.cstmContent {padding: 0 0 60px 0 !important;width: 78%;}
 .cstmAside .widget {margin:0 0 35px 0!important; padding:0 !important;}
 .cstmAside .cafeInfo{font-size: 12px;}
 

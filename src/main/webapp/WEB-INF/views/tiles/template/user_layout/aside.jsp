@@ -2,7 +2,7 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <c:set var="contextPath" value="${pageContext.request.contextPath}"/>
 <!-- SIDEBAR -->
-      <div id="sidebar" class="col-lg-4 col-md-4 col-sm-4 col-xs-12 cstmAside">
+      <div id="sidebar" class="col-lg-4 col-md-4 col-sm-4 col-xs-12 cstmAside" ${cafeDTO.cafeLayout > 0 ? 'style="float:right;"' : ''}>
         <div class="widget">
           <div class="tabbable">
             <ul class="nav nav-tabs">
@@ -64,7 +64,7 @@
                   </li>
                   <li>
                     <c:if test="${cafeDTO.isCafeMember()}">
-                  	<input type="button" class="button" value="카페 글쓰기" onclick="alert('카페 글쓰기 이동')" style="width:100%;">
+                  	<input type="button" class="button" value="카페 글쓰기" onclick="changeCafeMenu('${contextPath}/user/board/writeForm')" style="width:100%;">
                   	</c:if>
                   	<c:if test="${!cafeDTO.isCafeMember()}">
                   	<input type="button" class="button" value="카페 가입하기" onclick="alert('카페 가입하기 이동')" style="width:100%;">
