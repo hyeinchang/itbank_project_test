@@ -74,7 +74,7 @@
         <div class="col-lg-3 col-md-3 col-sm-12 title-area">
           <div class="site-title" id="title">
             <a href="${contextPath}" title="">
-              <h4>MAXI<span>BIZ</span></h4>
+              <h4>NA<span>VER</span></h4>
             </a>
           </div>
         </div>

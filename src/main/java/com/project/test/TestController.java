@@ -53,7 +53,7 @@ public class TestController {
 		
 		CafeDTO cafeDTO = new CafeDTO();
 		int order = Integer.parseInt(cafeId.replaceAll("\\D", ""));
-		String skin = "";
+		String skin = "default";
 		cafeDTO.setCafeManagerNickName("테스트 카페" + order + "의 매니저 아이디");
 		
 		switch(order) {

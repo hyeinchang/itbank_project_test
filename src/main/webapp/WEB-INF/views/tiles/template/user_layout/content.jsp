@@ -44,10 +44,10 @@
         <c:otherwise>
         <c:forEach var="ranking" items="${rankingList}">
          <div class="col-lg-4 col-md-4 col-sm-12">
-          <div class="dmbox">
+          <div class="dmbox" style="padding:18px;">
             <div class="service-icon">
               <div class="dm-icon-effect-1 effect-slide-bottom in" data-effect="slide-bottom" style="transition: all 0.7s ease-in-out 0s;">
-                <a href="${contextPath}/user/main?cafeId=${ranking.cafeId}"><img src="${ranking.cafeTitle}" alt="${ranking.cafeName}"></a>
+                <a href="${contextPath}/user/main?cafeId=${ranking.cafeId}"><img src="${ranking.cafeTitle}" alt="${ranking.cafeName}" style="width:300px;height:300px;"></a>
               </div>
             </div>
             <h4><a href="location.href='${contextPath}/user/main?cafeId=${ranking.cafeId}'">${ranking.cafeName}</a></h4>
@@ -185,7 +185,7 @@
     </div>
     <!-- end container -->
   </section>
- <section class="section1">
+ <section class="section1" style="display:none;">
     <div class="container clearfix">
       <div class="col-lg-12 col-md-12 col-sm-12 clearfix">
         <div class="clearfix"></div>

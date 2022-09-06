@@ -13,6 +13,7 @@ public class CafeDTO {
 	private boolean isCafeManager;
 	
 	public CafeDTO() {
+		this.cafeSkin = "default";
 		// 카페 회원 여부, 카페 메니저 여부 초기화
 		this.isCafeMember = false;
 		this.isCafeManager = false;

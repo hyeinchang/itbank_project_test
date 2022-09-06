@@ -57,8 +57,10 @@ public class HomeController {
 			
 			switch(order) {
 			case 1 : skin = "asphalt";
+				cafe.setCafeTitle(request.getContextPath() + "/resources/upload/demo_01.jpg");
 				break;
 			case 2 : skin = "blue";
+				cafe.setCafeTitle(request.getContextPath() + "/resources/upload/1794220617_XSpkAiBo_pexels-eberhard-grossgasteiger-1287142.jpg");
 				break;
 			case 3 : skin = "brown";
 				break;
