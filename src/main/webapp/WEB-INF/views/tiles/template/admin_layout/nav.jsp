@@ -3,7 +3,12 @@
 <c:set var="contextPath" value="${pageContext.request.contextPath}"/>
 <c:set var="adminPath" value="${contextPath}/resources/startbootstrap-sb-admin-2-gh-pages"/>
 
-<!-- Sidebar -->
+<body id="page-top">
+
+    <!-- Page Wrapper -->
+    <div id="wrapper">
+    
+		<!-- Sidebar -->
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
