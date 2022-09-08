@@ -1,0 +1,32 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<c:set var="contextPath" value="${pageContext.request.contextPath}"/>
+<c:set var="address" value="${pageContext.request.scheme}://${pageContext.request.serverName}:${pageContext.request.serverPort}"/>
+  
+  <section class="section1" style="padding: 30px 0 0 0;">
+    <div class="container clearfix">
+    <c:choose>
+    <c:when test="${}">
+      <div class="default-title">
+	  	<div class="site-title">
+            <a href="${contextPath}" title="">
+              <h4>Ca<span>fe</span></h4>
+            </a>
+          </div>
+		<h1>${cafeDTO.cafeName}</h1>
+		<a href="${address}${contextPath}/main?cafeId=${cafeDTO.cafeId">${address}${contextPath}/main?cafeId=${cafeDTO.cafeId}</a>
+	  </div>
+	</c:when>  
+    </c:choose>
+      <div class="setting-title">
+		<a href="${contextPath}/main?cafeId=${cafeDTO.cafeId}" style="display:none;">
+	      <img src="${contextPath}/resources/upload/1794220617_XSpkAiBo_pexels-eberhard-grossgasteiger-1287142.jpg" alt="IT뱅크 산업기사 평가과정B" onload="resizeTopSkin(this)" height="340" width="100%">
+		</a>
+	  </div>
+	  
+	</div>
+  </section>	
+
+  <section class="section1">
+    <div class="container clearfix">
+      

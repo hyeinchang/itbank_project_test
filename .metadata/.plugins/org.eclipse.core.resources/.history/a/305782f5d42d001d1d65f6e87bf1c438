@@ -1,0 +1,5 @@
+package com.project.test.user.board.controller;
+
+public class BoardController {
+
+}

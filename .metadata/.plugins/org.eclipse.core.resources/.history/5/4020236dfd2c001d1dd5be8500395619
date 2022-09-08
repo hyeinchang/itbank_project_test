@@ -1,0 +1,21 @@
+package com.project.test;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+@RequestMapping("/admin")
+public class AdminController {
+	@GetMapping("")
+	public String index() {
+		System.out.println("찾았니??111");
+		return "index";
+	}
+	
+	@GetMapping("/index")
+	public String index2() {
+		System.out.println("찾았니??");
+		return "index";
+	}
+}

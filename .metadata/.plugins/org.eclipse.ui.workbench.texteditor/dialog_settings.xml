@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value=""/>
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<list key="findhistory">
+			<item value="nWidth"/>
+			<item value="width"/>
+			<item value="img/undraw_posting_photo.svg"/>
+			<item value="adminPath"/>
+			<item value="nav-link dropdown-toggle"/>
+			<item value="src"/>
+			<item value="side"/>
+			<item value="free-icon-joy-7021182.png"/>
+			<item value="free-icon-joy-7021182.png&quot;"/>
+			<item value="c:choose"/>
+			<item value="${contextPath}/main?cafeId="/>
+			<item value="demo"/>
+			<item value="center"/>
+			<item value=" #696E74#222222;"/>
+			<item value="oWidth"/>
+		</list>
+		<list key="replacehistory">
+			<item value="${contextPath}/user/main?cafeId="/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="372"/>
+		<item key="DIALOG_Y_ORIGIN" value="311"/>
+		<item key="DIALOG_WIDTH" value="288"/>
+		<item key="DIALOG_HEIGHT" value="391"/>
+		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
+	</section>
+</section>

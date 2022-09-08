@@ -1,0 +1,22 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<c:set var="contextPath" value="${pageContext.request.contextPath}"/>
+<c:set var="address" value="${pageContext.request.serverName}:${pageContext.request.serverPort}"/>
+  
+  <section class="section1">
+    <div class="container clearfix">
+      <div class="setting-title">
+		<a href="${contextPath}/main?cafeId=${cafeDTO.cafeId}" style="display:none;">
+	      <img src="${contextPath}/resources/upload/1794220617_XSpkAiBo_pexels-eberhard-grossgasteiger-1287142.jpg" alt="IT뱅크 산업기사 평가과정B" onload="resizeTopSkin(this)" height="340" width="100%">
+		</a>
+	  </div>
+	  <div class="default-title">
+		<h1>${cafeDTO.cafeName}</h1>
+		<a href="#">${address}${contextPath}/main?cafeId=${cafeDTO.cafeId}</a>
+	  </div>
+	</div>
+  </section>	
+  <%= request.getServerName() + ":" + request.getServerPort() %>
+ <section class="section1">
+    <div class="container clearfix">
+      

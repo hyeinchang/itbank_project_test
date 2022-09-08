@@ -1,0 +1,5 @@
+package com.project.navercafe.mybatis.board;
+
+public interface BoardMapper {
+
+}
