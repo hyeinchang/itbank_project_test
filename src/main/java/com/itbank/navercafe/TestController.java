@@ -1,4 +1,4 @@
-package com.project.test;
+package com.itbank.navercafe;
 
 import java.util.ArrayList;
 
@@ -13,9 +13,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
-import com.project.test.cafe.dto.CafeDTO;
-import com.project.test.category.dto.CategoryDTO;
-import com.project.test.member.dto.MemberDTO;
+import com.itbank.navercafe.user.cafe.dto.CafeDTO;
+import com.itbank.navercafe.user.category.dto.CategoryDTO;
+import com.itbank.navercafe.user.member.dto.MemberDTO;
 
 @Controller
 @RequestMapping("/user")

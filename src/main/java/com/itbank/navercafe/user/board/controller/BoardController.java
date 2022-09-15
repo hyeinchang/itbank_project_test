@@ -1,10 +1,10 @@
-package com.project.test.user.board.controller;
+package com.itbank.navercafe.user.board.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.project.test.cafe.dto.CafeDTO;
+import com.itbank.navercafe.user.cafe.dto.CafeDTO;
 
 @Controller
 @RequestMapping("/user/board")

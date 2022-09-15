@@ -1,4 +1,4 @@
-package com.project.test.cafe.dto;
+package com.itbank.navercafe.user.cafe.dto;
 
 public class CafeDTO {
 	private String cafeId;

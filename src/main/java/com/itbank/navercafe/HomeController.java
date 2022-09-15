@@ -1,4 +1,4 @@
-package com.project.test;
+package com.itbank.navercafe;
 
 import java.text.DateFormat;
 import java.util.ArrayList;
@@ -14,7 +14,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import com.project.test.cafe.dto.CafeDTO;
+import com.itbank.navercafe.user.cafe.dto.CafeDTO;
 
 /**
  * Handles requests for the application home page.

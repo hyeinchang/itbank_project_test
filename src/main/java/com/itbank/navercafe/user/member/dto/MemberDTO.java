@@ -1,4 +1,4 @@
-package com.project.test.member.dto;
+package com.itbank.navercafe.user.member.dto;
 
 public class MemberDTO {
 	private String id;

@@ -1,4 +1,4 @@
-package com.project.test.category.dto;
+package com.itbank.navercafe.user.category.dto;
 
 public class CategoryDTO {
 	private int categoryNo;
